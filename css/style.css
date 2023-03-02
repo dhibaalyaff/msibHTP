@@ -1,0 +1,60 @@
+p{
+    color: gold;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12pt;
+}
+body{
+    background-color: blue;
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+}
+
+/* grouping css */
+
+fieldset, legend {
+    border: yellow groove 5px;
+    border-radius: 30px;
+}
+legend{
+    padding: 10px;
+    background-color: orangered;
+    font-weight: bold;
+    font-size: 14pt;
+}
+table{
+    border: 10px;
+    margin: auto;
+}
+/* psudo element id dan class */
+div#menu{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px
+}
+a.item:link, a.item:visited, a.item:active{
+    text-decoration: none;
+    font-size: 16pt;
+    color: orangered;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: white;
+    position: relative;
+    top: 0px;
+}
+a.item:hover{
+    text-decoration: none;
+    font-size: 14pt;
+    color: blue;
+    border: 2px solid red;
+    padding: 15px;
+    background-color: yellow;
+}
+li.menu{
+    color:brown;
+}
+
+h1{
+    text-shadow: 5px 5px yellow;
+    color: black;
+}
